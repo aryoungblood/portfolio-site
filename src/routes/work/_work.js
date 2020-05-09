@@ -12,7 +12,8 @@ const work = fs.readdirSync(WORK_DIR).filter((file) => file[0] !== '.' && path.e
 
   return {
     title: data.title,
-    year: data.year,
+    year: data.date.split('-')[0],
+    date: new Date(data.date),
     link: data.link,
     image: data.image,
     image_description: data.image_description,

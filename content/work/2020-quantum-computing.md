@@ -1,6 +1,6 @@
 ---
 title: Quantum Computing and Encryption
-date: '2020-03-01'
+date: '2020-04-09'
 link: https://www.rand.org/blog/articles/2020/04/quantum-computers-will-break-the-internet-but-only-if-we-let-them.html
 image: images/2020-quantum-computing.png
 image_description: An illustration of a lock and a key.

@@ -1,6 +1,6 @@
 ---
 title: How Gun Policies Affect Outcomes
-year: 2020
+date: '2020-05-01'
 link: https://www.rand.org/research/gun-policy.html#policy-analysis-
 image: images/2020-gun-policy-diagram.png
 image_description: A diagram that shows where there's evidence, and how much, for how gun policies affect outcomes.

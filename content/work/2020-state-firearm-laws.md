@@ -1,6 +1,6 @@
 ---
 title: State Firearm Law Navigator
-year: 2020
+date: '2019-12-01'
 link: https://www.rand.org/research/gun-policy/law-navigator.html
 image: images/2020-state-firearm-laws.png
 image_description: A map of the United States that shows where background check laws were in effect in 2019.

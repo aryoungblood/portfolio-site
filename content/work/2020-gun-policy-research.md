@@ -1,6 +1,6 @@
 ---
 title: Gun Policy Research
-year: 2020
+date: '2020-05-01'
 link: https://www.rand.org/research/gun-policy/analysis/background-checks/violent-crime.html
 image: images/2020-gun-policy-forest-plot.png
 image_description: A visualization that shows the effects of gun policies on violent crime.

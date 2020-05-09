@@ -25,10 +25,8 @@
   }
 
   .entry {
-    border: 1px dotted #a3a3a3;
-    border-left: none;
-    border-right: none;
-    padding: 1rem 0;
+    border-top: 1px dotted #a3a3a3;
+    padding: 1rem 0 2rem;
   }
 
   .entry h2 {

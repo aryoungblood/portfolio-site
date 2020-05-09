@@ -1,0 +1,11 @@
+---
+title: What Americans Think of the News
+year: 2020
+link: https://www.rand.org/blog/articles/2020/04/what-americans-think-of-the-news--and-what-that-means.html
+image: images/2020-news-consumption.png
+image_description: A collage of people viewing the news.
+contributions: design, graphics, front-end development
+tools: Photoshop
+---
+
+Design and graphics for an article on what Americans think of the news.

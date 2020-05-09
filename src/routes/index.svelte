@@ -59,11 +59,12 @@
     height: 100%;
     left: 0;
     position: absolute;
-    transition: bottom 250ms;
+    transition: bottom 250ms, left 250ms;
     width: 100%;
   }
 
   .image-container:hover::before {
+    left: -10px;
     bottom: -10px;
   }
 

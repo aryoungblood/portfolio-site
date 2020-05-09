@@ -8,11 +8,12 @@
     font-family: Source Code Pro, Plex Mono, Fira Mono, Consolas, Courier,
       monospace;
     margin: 2rem 0 4rem;
-    padding: 0 1em;
+    padding: 0 2em;
   }
 
   ul {
     align-items: end;
+    column-gap: 1rem;
     display: grid;
     grid-template-columns: 1fr repeat(3, max-content);
     justify-content: space-between;
@@ -60,8 +61,32 @@
   .name a {
     background: #2a2a2a;
     color: #6ed4bc;
-    display: inline;
-    padding: 0 0.5rem 0.5rem;
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 55em) {
+    nav {
+      padding: 0.5em;
+    }
+
+    ul {
+      row-gap: 0.25rem;
+      grid-template-columns: 1fr;
+    }
+
+    a {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    [aria-current]::after {
+      bottom: 4px;
+      height: 2px;
+    }
+
+    .name {
+      margin-bottom: 0;
+    }
   }
 </style>
 

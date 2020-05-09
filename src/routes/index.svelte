@@ -41,12 +41,41 @@
     font-size: 1.25rem;
   }
 
+  .image-container {
+    position: relative;
+  }
+
+  .image-container::before {
+    background: repeating-linear-gradient(
+      -45deg,
+      #a3a3a3,
+      #a3a3a3 1px,
+      transparent 1px,
+      transparent 4px
+    );
+    border-radius: 4px;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: bottom 250ms;
+    width: 100%;
+  }
+
+  .image-container:hover::before {
+    bottom: -10px;
+  }
+
   .entry img {
     border-radius: 4px;
+    display: block;
     max-width: 425px;
+    position: relative;
   }
 
   .content {
+    align-items: flex-start;
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: 1fr 1fr;
@@ -82,7 +111,7 @@
       </h2>
 
       <div class="content">
-        <a href={entry.link}>
+        <a class="image-container" href={entry.link}>
           <img src={entry.image} alt={entry.image_description} />
         </a>
 

@@ -23,4 +23,6 @@ const work = fs.readdirSync(WORK_DIR).filter((file) => file[0] !== '.' && path.e
   };
 });
 
+work.sort((a, b) => b.date - a.date);
+
 export default work;

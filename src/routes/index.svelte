@@ -25,7 +25,7 @@
   }
 
   .entry {
-    border-top: 1px dotted #a3a3a3;
+    border-top: 1px solid rgba(163, 163, 163, 0.3);
     padding: 1rem 0 2rem;
   }
 

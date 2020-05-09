@@ -20,11 +20,11 @@
 
   @keyframes bounce {
     from {
-      transform: translateX(-10px);
+      transform: none;
     }
 
     to {
-      transform: none;
+      transform: translateX(-10px);
     }
   }
 </style>

@@ -70,7 +70,7 @@
   .entry img {
     border-radius: 4px;
     display: block;
-    max-width: 425px;
+    max-width: 100%;
     position: relative;
   }
 
@@ -78,7 +78,7 @@
     align-items: flex-start;
     display: grid;
     grid-gap: 1.5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
   .details {

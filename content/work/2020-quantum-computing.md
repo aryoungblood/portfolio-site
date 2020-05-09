@@ -5,7 +5,7 @@ link: https://www.rand.org/blog/articles/2020/04/quantum-computers-will-break-th
 image: images/2020-quantum-computing.png
 image_description: An illustration of a lock and a key.
 contributions: design, illustration, graphics, front-end development
-tools: Illustrator, Photoshop
+tools: Illustrator, Photoshop, CSS, HTML
 ---
 
 Design and graphics for an article on how quantum computing may affect encryption.

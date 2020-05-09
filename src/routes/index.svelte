@@ -99,42 +99,40 @@
   <title>Alyson Youngblood</title>
 </svelte:head>
 
-<main>
-  <h1>Work</h1>
+<h1>Work</h1>
 
-  {#each work as entry}
-    <section class="entry">
-      <h2>
-        <a href={entry.link}>
-          {entry.title}
-          <span>({entry.year})</span>
-        </a>
-      </h2>
+{#each work as entry}
+  <section class="entry">
+    <h2>
+      <a href={entry.link}>
+        {entry.title}
+        <span>({entry.year})</span>
+      </a>
+    </h2>
 
-      <div class="content">
-        <a class="image-container" href={entry.link}>
-          <img src={entry.image} alt={entry.image_description} />
-        </a>
+    <div class="content">
+      <a class="image-container" href={entry.link}>
+        <img src={entry.image} alt={entry.image_description} />
+      </a>
 
-        <div class="text">
-          <div>
-            {@html entry.html}
-          </div>
-          <p>
-            <ViewLink link={entry.link} />
-          </p>
-
-          <dl class="details">
-            <dt>Contributions:</dt>
-            <dd>{entry.contributions}</dd>
-
-            {#if entry.tools}
-              <dt>Tools:</dt>
-              <dd>{entry.tools}</dd>
-            {/if}
-          </dl>
+      <div class="text">
+        <div>
+          {@html entry.html}
         </div>
+        <p>
+          <ViewLink link={entry.link} />
+        </p>
+
+        <dl class="details">
+          <dt>Contributions:</dt>
+          <dd>{entry.contributions}</dd>
+
+          {#if entry.tools}
+            <dt>Tools:</dt>
+            <dd>{entry.tools}</dd>
+          {/if}
+        </dl>
       </div>
-    </section>
-  {/each}
-</main>
+    </div>
+  </section>
+{/each}

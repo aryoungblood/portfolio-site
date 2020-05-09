@@ -15,6 +15,7 @@ const work = fs.readdirSync(WORK_DIR).filter((file) => file[0] !== '.' && path.e
     year: data.year,
     link: data.link,
     image: data.image,
+    image_description: data.image_description,
     contributions: data.contributions,
     tools: data.tools,
     html: html.replace(/^\t{3}/gm, '')

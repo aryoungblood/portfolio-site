@@ -4,21 +4,20 @@
 
 <style>
   nav {
-    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
-    font-weight: 300;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.3);
+    font-family: Source Code Pro, Plex Mono, Fira Mono, Consolas, Courier,
+      monospace;
+    margin: 2rem 0 4rem;
     padding: 0 1em;
   }
 
   ul {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, max-content);
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-  }
-
-  /* clearfix */
-  ul::after {
-    content: "";
-    display: block;
-    clear: both;
   }
 
   li {
@@ -35,24 +34,46 @@
     position: absolute;
     content: "";
     width: calc(100% - 1em);
-    height: 2px;
-    background-color: rgb(255, 62, 0);
+    height: 5px;
+    background-color: #cc89e8;
     display: block;
-    bottom: -1px;
+    bottom: -3px;
   }
 
   a {
     text-decoration: none;
-    padding: 1em 0.5em;
+    padding: 0.5rem;
     display: block;
+  }
+
+  .name {
+    font-family: Proxima Nova, Source Sans Pro, Roboto, -apple-system,
+      BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans,
+      Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin-bottom: -1rem;
+  }
+
+  .name a {
+    background: #2a2a2a;
+    color: #6ed4bc;
+    display: inline;
+    padding: 0 0.5rem 0.5rem;
   }
 </style>
 
 <nav>
   <ul>
+    <li class="name">
+      <a rel="prefetch" href=".">Alyson Youngblood</a>
+    </li>
     <li>
-      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
-        home
+      <a
+        rel="prefetch"
+        aria-current={segment === undefined ? 'page' : undefined}
+        href=".">
+        work
       </a>
     </li>
 

@@ -106,8 +106,10 @@
   {#each work as entry}
     <section class="entry">
       <h2>
-        {entry.title}
-        <span>({entry.year})</span>
+        <a href={entry.link}>
+          {entry.title}
+          <span>({entry.year})</span>
+        </a>
       </h2>
 
       <div class="content">

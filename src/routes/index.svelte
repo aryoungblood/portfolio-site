@@ -9,7 +9,7 @@
 </script>
 
 <script>
-  import IconMagGlass from "../components/icons/IconMagGlass.svelte";
+  import ViewLink from "../components/ViewLink.svelte";
   import IconExternalLink from "../components/icons/IconExternalLink.svelte";
 
   export let work;
@@ -28,12 +28,12 @@
     border: 1px dotted #a3a3a3;
     border-left: none;
     border-right: none;
-    padding-top: 1rem;
+    padding: 1rem 0;
   }
 
   .entry h2 {
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .entry h2 span {
@@ -91,19 +91,17 @@
             {@html entry.html}
           </div>
           <p>
-            <a class="bold-link" href={entry.link}>
-              <IconMagGlass width="30" height="25.484" />
-              view
-              <IconExternalLink />
-            </a>
+            <ViewLink link={entry.link} />
           </p>
 
           <dl class="details">
             <dt>Contributions:</dt>
             <dd>{entry.contributions}</dd>
 
-            <dt>Tools:</dt>
-            <dd>{entry.tools}</dd>
+            {#if entry.tools}
+              <dt>Tools:</dt>
+              <dd>{entry.tools}</dd>
+            {/if}
           </dl>
         </div>
       </div>

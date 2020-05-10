@@ -15,7 +15,7 @@
       monospace;
   }
 
-  :global(.bold-link:hover svg) {
+  div :global(.bold-link:hover svg) {
     animation-direction: alternate;
     animation-duration: 500ms;
     animation-iteration-count: infinite;

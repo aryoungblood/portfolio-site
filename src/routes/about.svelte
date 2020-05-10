@@ -1,3 +1,7 @@
+<script>
+  import ExploreMore from "../components/ExploreMore.svelte";
+</script>
+
 <svelte:head>
   <title>About • Alyson Youngblood</title>
 </svelte:head>
@@ -11,3 +15,5 @@
   creative process, including concept development, ideation, wireframing,
   prototyping, visual design, and front-end development.
 </p>
+
+<ExploreMore />

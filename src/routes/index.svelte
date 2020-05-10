@@ -18,8 +18,7 @@
 <style>
   h1 {
     color: #a3a3a3;
-    font-family: Source Code Pro, Plex Mono, Fira Mono, Consolas, Courier,
-      monospace;
+    font-family: Source Code Pro, Consolas, "Courier New", monospace;
     font-size: 1.5rem;
     text-transform: uppercase;
   }

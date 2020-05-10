@@ -11,8 +11,7 @@
   }
 
   p {
-    font-family: Source Code Pro, Plex Mono, Fira Mono, Consolas, Courier,
-      monospace;
+    font-family: Source Code Pro, Consolas, "Courier New", monospace;
   }
 
   div :global(.bold-link:hover svg) {

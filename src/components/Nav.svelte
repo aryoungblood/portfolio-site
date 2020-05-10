@@ -5,8 +5,7 @@
 <style>
   nav {
     border-bottom: 1px solid rgba(163, 163, 163, 0.3);
-    font-family: Source Code Pro, Plex Mono, Fira Mono, Consolas, Courier,
-      monospace;
+    font-family: Source Code Pro, Consolas, "Courier New", monospace;
     margin: 2rem 0 4rem;
     padding: 0 2em;
   }
@@ -49,9 +48,9 @@
   }
 
   .name {
-    font-family: Proxima Nova, Source Sans Pro, Roboto, -apple-system,
-      BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans,
-      Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Proxima Nova, Roboto, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif;
     font-size: 3.25rem;
     font-weight: bold;
     line-height: 1.1;

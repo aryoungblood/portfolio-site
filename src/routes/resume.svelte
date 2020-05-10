@@ -57,6 +57,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Resume • Alyson Youngblood</title>
+</svelte:head>
+
 <h1>Resume</h1>
 
 <div class="container">

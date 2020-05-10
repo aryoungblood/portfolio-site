@@ -96,6 +96,8 @@
       <a rel="prefetch" href=".">Alyson Youngblood</a>
     </li>
     <li>
+      <!-- use rel=prefetch for so that Sapper prefetches
+		     work data when we hover over the link or tap it on a touchscreen -->
       <a
         rel="prefetch"
         aria-current={segment === undefined ? 'page' : undefined}
@@ -104,13 +106,8 @@
       </a>
     </li>
 
-    <!-- use rel=prefetch for resume so that Sapper prefetches
-		     the resume data when we hover over the link or tap it on a touchscreen -->
     <li>
-      <a
-        rel="prefetch"
-        aria-current={segment === 'resume' ? 'page' : undefined}
-        href="resume">
+      <a aria-current={segment === 'resume' ? 'page' : undefined} href="resume">
         resume
       </a>
     </li>

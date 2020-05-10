@@ -1,3 +1,7 @@
+<script>
+  import ExploreMore from "../components/ExploreMore.svelte";
+</script>
+
 <style>
   h2 {
     border-bottom: 1px solid rgba(163, 163, 163, 0.3);
@@ -162,3 +166,5 @@
     </section>
   </div>
 </div>
+
+<ExploreMore />

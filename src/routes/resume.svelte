@@ -8,7 +8,7 @@
     color: #a3a3a3;
     font-family: Source Code Pro, Consolas, "Courier New", monospace;
     font-size: 1.5rem;
-    margin: 3rem 0 2rem;
+    margin: 0 0 2rem;
     padding-bottom: 0.5rem;
     text-transform: uppercase;
   }
@@ -46,7 +46,7 @@
   }
 
   .segment {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .role {
@@ -64,24 +64,24 @@
   <title>Resume • Alyson Youngblood</title>
 </svelte:head>
 
-<h1>Resume</h1>
+<h1 class="access">Resume</h1>
 
 <div class="container">
   <div class="main">
     <h2>Work Experience</h2>
 
     <section class="segment">
-      <h3>RAND Corporation, 2012-present</h3>
+      <h3>RAND Corporation, 2012–present</h3>
 
       <div class="role">
         <h4>
           Research Communication Designer,
-          <span>2016-present</span>
+          <span>2016–present</span>
         </h4>
 
         <p class="note">
           Formal titles in this role: Communications Analyst (2019–present),
-          Front-End Developer (2016-2019)
+          Front-End Developer (2016–2019)
         </p>
 
         <p>
@@ -97,7 +97,7 @@
       <div class="role">
         <h4>
           Website Specialist,
-          <span>2012-2016</span>
+          <span>2012–2016</span>
         </h4>
 
         <p>

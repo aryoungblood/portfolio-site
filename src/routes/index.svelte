@@ -96,6 +96,14 @@
 
 <svelte:head>
   <title>Alyson Youngblood</title>
+  <meta
+    name="description"
+    content="Alyson Youngblood is a designer and developer who creates digital
+    storytelling products." />
+  <meta
+    name="keywords"
+    content="design, front-end development, portfolio, designer, developer, data
+    visualization" />
 </svelte:head>
 
 <h1>Work</h1>

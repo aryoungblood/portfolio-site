@@ -4,6 +4,13 @@
 
 <svelte:head>
   <title>About • Alyson Youngblood</title>
+  <meta
+    name="description"
+    content="About Alyson Youngblood, designer and developer." />
+  <meta
+    name="keywords"
+    content="design, front-end development, designer, developer, data
+    visualization" />
 </svelte:head>
 
 <h1>About</h1>

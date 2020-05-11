@@ -62,6 +62,13 @@
 
 <svelte:head>
   <title>Resume • Alyson Youngblood</title>
+  <meta
+    name="description"
+    content="Resume for Alyson Youngblood, designer and developer." />
+  <meta
+    name="keywords"
+    content="design, front-end development, resume, designer, developer, data
+    visualization" />
 </svelte:head>
 
 <h1 class="access">Resume</h1>

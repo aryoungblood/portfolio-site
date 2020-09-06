@@ -8,4 +8,4 @@ contributions: design, illustration, graphics, front-end development
 tools: Illustrator, Photoshop, CSS, HTML
 ---
 
-Design and graphics for an article on how quantum computing may affect encryption.
+Design, illustration, and graphics for an article on how quantum computing may affect encryption.

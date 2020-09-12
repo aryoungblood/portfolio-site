@@ -14,7 +14,7 @@
     align-items: end;
     column-gap: 1rem;
     display: grid;
-    grid-template-columns: 1fr repeat(3, max-content);
+    grid-template-columns: 1fr repeat(4, max-content);
     justify-content: space-between;
     margin: 0 auto;
     max-width: 72rem;
@@ -49,8 +49,8 @@
 
   .name {
     font-family: Proxima Nova, Roboto, -apple-system, BlinkMacSystemFont,
-      Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-      sans-serif;
+    Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
     font-size: 3.25rem;
     font-weight: bold;
     line-height: 1.1;
@@ -92,28 +92,32 @@
 <nav>
   <ul>
     <li class="name">
-      <a rel="prefetch" href=".">Alyson Youngblood</a>
-    </li>
-    <li>
-      <!-- use rel=prefetch for so that Sapper prefetches
-		     work data when we hover over the link or tap it on a touchscreen -->
-      <a
-        rel="prefetch"
-        aria-current={segment === undefined ? 'page' : undefined}
-        href=".">
-        work
-      </a>
+      <a rel="prefetch"
+         href=".">Alyson Youngblood</a>
     </li>
 
     <li>
-      <a aria-current={segment === 'resume' ? 'page' : undefined} href="resume">
-        resume
-      </a>
+      <!-- use rel=prefetch for so that Sapper prefetches
+		     work data when we hover over the link or tap it on a touchscreen -->
+      <a rel="prefetch"
+         aria-current={segment === undefined ? 'page' : undefined}
+         href=".">work</a>
     </li>
+
     <li>
-      <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
-        about
-      </a>
+      <a rel="prefetch"
+         aria-current={segment === 'blog' ? 'page' : undefined}
+         href="/blog">blog</a>
+    </li>
+
+    <li>
+      <a aria-current={segment === 'resume' ? 'page' : undefined}
+         href="resume">resume</a>
+    </li>
+
+    <li>
+      <a aria-current={segment === 'about' ? 'page' : undefined}
+         href="about">about</a>
     </li>
   </ul>
 </nav>

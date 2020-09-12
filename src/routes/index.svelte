@@ -112,7 +112,7 @@
   <section class="entry">
     <h2>
       <a href={entry.link}>
-        {entry.title}
+    {entry.title}
         <span>({entry.year})</span>
       </a>
     </h2>

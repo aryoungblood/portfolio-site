@@ -26,7 +26,7 @@
   <section>
     <h2>
       <a
-              href="blog/{post.slug}.md">{post.title}</a>
+              href="blog/{post.slug}">{post.title}</a>
     </h2>
     <p class="date">{post.presentationDate}</p>
     <p>{post.summary}</p>

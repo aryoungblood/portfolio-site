@@ -25,12 +25,19 @@ h1 {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 1em;
 }
 
 a {
   color: #cc89e8;
   text-decoration: none;
+}
+
+code {
+  background-color: #494949;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.125rem;
 }
 
 .bold-link {

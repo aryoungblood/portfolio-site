@@ -53,10 +53,5 @@
     margin-bottom: 0.5rem;
   }
 
-  .date {
-    color: #a3a3a3;
-    font-size: 0.875rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-  }
+
 </style>

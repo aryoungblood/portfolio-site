@@ -23,7 +23,7 @@
   prototyping, visual design, and front-end development.
 </p>
 
-<ExploreMore />
+<ExploreMore destination="work" link="."/>
 
 <style>
   h1 {

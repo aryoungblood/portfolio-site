@@ -173,4 +173,4 @@
   </div>
 </div>
 
-<ExploreMore />
+<ExploreMore destination="work" link="."/>

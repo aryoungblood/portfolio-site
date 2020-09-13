@@ -1,5 +1,8 @@
 <script>
-  import IconExploreMore from "../components/icons/IconExploreMore.svelte";
+  import IconExploreMore from '../components/icons/IconExploreMore.svelte';
+
+  export let destination;
+  export let link;
 </script>
 
 <style>
@@ -34,9 +37,16 @@
 
 <div>
   <p>
-    <a class="bold-link" href=".">
-      <IconExploreMore />
-      explore work
+    <a class="bold-link"
+       href={link}>
+      <IconExploreMore/>
+
+      {#if destination === 'blog'}
+        more
+      {:else}
+        explore
+      {/if}
+      {destination}
     </a>
   </p>
 </div>

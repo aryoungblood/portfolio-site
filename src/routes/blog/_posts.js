@@ -11,46 +11,47 @@ const posts = fs.readdirSync(BLOG_DIR)
     const markdown = fs.readFileSync(`${BLOG_DIR}/${file}`, 'utf-8');
     const {body, attributes} = matter(markdown);
     const html = marked(body);
-    const date = new Date(attributes.date);
+    // JavaScript date object is unreliable as string date parser due to browser inconsistencies, so parse date manually.
+    const [year, month, day] = attributes.date.split('-');
 
     function getMonthName(month) {
       let monthName = '';
 
       switch (month) {
-        case 1:
+        case '01':
           monthName = 'January';
           break;
-        case 2:
+        case '02':
           monthName = 'February';
           break;
-        case 3:
+        case '03':
           monthName = 'March';
           break;
-        case 4:
+        case '04':
           monthName = 'April';
           break;
-        case 5:
+        case '05':
           monthName = 'May';
           break;
-        case 6:
+        case '06':
           monthName = 'June';
           break;
-        case 7:
+        case '07':
           monthName = 'July';
           break;
-        case 8:
+        case '08':
           monthName = 'August';
           break;
-        case 9:
+        case '09':
           monthName = 'September';
           break;
-        case 10:
+        case '10':
           monthName = 'October';
           break;
-        case 11:
+        case '11':
           monthName = 'November';
           break;
-        case 12:
+        case '12':
           monthName = 'December';
           break;
         default:
@@ -62,10 +63,9 @@ const posts = fs.readdirSync(BLOG_DIR)
 
     return {
       title: attributes.title,
-      presentationDate: `${getMonthName(date.getMonth())} ${date.getDate()}, ${date.getFullYear()}`,
-      date: date,
+      presentationDate: `${getMonthName(month)} ${day}, ${year}`,
+      date: new Date(attributes.date),
       slug: path.basename(file, '.md'),
-      topics: attributes.topics,
       summary: attributes.summary,
       html: html.replace(/^\t{3}/gm, '')
     };

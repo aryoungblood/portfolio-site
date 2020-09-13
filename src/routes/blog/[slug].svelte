@@ -7,7 +7,8 @@
 </script>
 
 <script>
-  import ExploreMore from "../../components/ExploreMore.svelte";
+  import ExploreMore from '../../components/ExploreMore.svelte';
+
   export let post;
 </script>
 
@@ -25,9 +26,14 @@
   <p>{@html post.html}</p>
 </article>
 
-<ExploreMore destination="blog" link="blog" />
+<ExploreMore destination="blog"
+             link="blog"/>
 
 <style>
+  article {
+    font-size: 1.25rem;
+  }
+
   h1 {
     border-bottom: 1px solid rgba(163, 163, 163, 0.3);
     color: #a3a3a3;

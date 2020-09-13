@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import marked from 'marked';
-import matter from 'gray-matter';
+import matter from 'front-matter';
 
 const BLOG_DIR = 'content/blog';
 
@@ -9,9 +9,9 @@ const posts = fs.readdirSync(BLOG_DIR)
   .filter((file) => file[0] !== '.' && path.extname(file) === '.md')
   .map((file) => {
     const markdown = fs.readFileSync(`${BLOG_DIR}/${file}`, 'utf-8');
-    const {content, data} = matter(markdown);
-    const html = marked(content);
-    const date = new Date(data.date);
+    const {body, attributes} = matter(markdown);
+    const html = marked(body);
+    const date = new Date(attributes.date);
 
     function getMonthName(month) {
       let monthName = '';
@@ -61,12 +61,12 @@ const posts = fs.readdirSync(BLOG_DIR)
     }
 
     return {
-      title: data.title,
+      title: attributes.title,
       presentationDate: `${getMonthName(date.getMonth())} ${date.getDate()}, ${date.getFullYear()}`,
       date: date,
       slug: path.basename(file, '.md'),
-      topics: data.topics,
-      summary: data.summary,
+      topics: attributes.topics,
+      summary: attributes.summary,
       html: html.replace(/^\t{3}/gm, '')
     };
   });

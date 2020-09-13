@@ -33,6 +33,10 @@
     margin-bottom: 1.5rem;
   }
 
+  .entry h2 a {
+    color: #fff;
+  }
+
   .entry h2 span {
     color: #a3a3a3;
     font-size: 1.25rem;

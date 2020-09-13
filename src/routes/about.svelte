@@ -24,3 +24,15 @@
 </p>
 
 <ExploreMore />
+
+<style>
+  h1 {
+    border-bottom: 1px solid rgba(163, 163, 163, 0.3);
+    color: #a3a3a3;
+    font-family: Source Code Pro, Consolas, "Courier New", monospace;
+    font-size: 1.5rem;
+    margin: 0 0 2rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+</style>

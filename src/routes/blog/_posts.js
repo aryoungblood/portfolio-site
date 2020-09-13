@@ -66,6 +66,7 @@ const posts = fs.readdirSync(BLOG_DIR)
       date: date,
       slug: path.basename(file, '.md'),
       topics: data.topics,
+      summary: data.summary,
       html: html.replace(/^\t{3}/gm, '')
     };
   });

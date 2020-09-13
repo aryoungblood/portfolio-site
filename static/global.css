@@ -33,10 +33,6 @@ a {
   text-decoration: none;
 }
 
-h2 a {
-  color: #fff;
-}
-
 .bold-link {
   font-family: Source Code Pro, Consolas, 'Courier New', monospace;
   font-weight: bold;

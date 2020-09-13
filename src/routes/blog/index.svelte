@@ -23,11 +23,40 @@
 <h1>Blog Posts</h1>
 
 {#each posts as post}
-  <h2>
-    <a
-         href="blog/{post.slug}.md">{post.title}</a>
-  </h2>
-  <p>{post.presentationDate}</p>
-  <p>Hello</p>
+  <section>
+    <h2>
+      <a
+              href="blog/{post.slug}.md">{post.title}</a>
+    </h2>
+    <p class="date">{post.presentationDate}</p>
+    <p>{post.summary}</p>
+  </section>
 {/each}
 
+<style>
+  section {
+    margin-bottom: 4rem;
+  }
+
+  h1 {
+    border-bottom: 1px solid rgba(163, 163, 163, 0.3);
+    color: #a3a3a3;
+    font-family: Source Code Pro, Consolas, "Courier New", monospace;
+    font-size: 1.5rem;
+    margin: 0 0 2rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .date {
+    color: #a3a3a3;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+</style>

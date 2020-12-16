@@ -5,7 +5,7 @@ link: https://www.rand.org/research/gun-policy/analysis.html
 image: images/2020-gun-policy-evidence.png
 image_description: A table that summarizes the strength of evidence for how gun policies affect outcomes.
 contributions: graphics, front end development
-tools: JavaScript, CSS, HTML
+tools: HTML, CSS, JavaScript
 ---
 
 Interactive graphics that summarize the strength of evidence for relationships between gun policies and outcomes.

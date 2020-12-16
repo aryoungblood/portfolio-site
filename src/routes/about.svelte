@@ -16,7 +16,7 @@
 <h1>About</h1>
 
 <p>
-  I design and build digital storytelling products. From data visualizations to
+  I design and build digital products. From data visualizations to
   interactives to animations, I explore the possibilities of digital
   communication with interdisciplinary teams. I work at every stage of the
   creative process, including concept development, ideation, wireframing,

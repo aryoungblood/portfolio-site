@@ -82,20 +82,20 @@
 
       <div class="role">
         <h4>
-          UX/UI Designer
+          Product Designer
         </h4>
 
         <p class="note">
           Internal titles in this role: Communications Analyst (2019–present),
-          Front End Developer (2016–2019)
+          Front-end Developer (2016–2019)
         </p>
 
         <p>
           Working closely with colleagues, I design and develop digital
-          products—tools, interactives, articles, data visualizations, animations, and
+          products—data visualizations, tools, interactives, articles, animation, and
           more—that tell stories about policy research. I contribute at every
           stage of the creative process, including concept development,
-          ideation, wireframing, prototyping, visual design, and front end
+          ideation, wireframing, prototyping, visual design, and front-end
           development.
         </p>
       </div>
@@ -155,6 +155,8 @@
         <li>CSS</li>
         <li>JavaScript</li>
         <li>Svelte</li>
+        <li>D3</li>
+        <li>R</li>
       </ul>
     </section>
 

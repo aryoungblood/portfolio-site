@@ -1,7 +1,7 @@
 ---
 title: Making a Blog
 date: '2020-09-13'
-summary: How I created this blog. 
+summary: An overview of how I built this blog with Sapper, Svelte, and a couple of other useful tools.
 ---
 
 A while back I made a decidedly better version of this site. For ages I'd relied on plain old HTML and CSS to make my personal site. It worked and was performant, but it was annoying to update. I decided to rebuild my site with [Sapper](https://sapper.svelte.dev/) in order to maintain a working and performant site that was less annoying to update. Now it's so easy to update that I've added a blog!

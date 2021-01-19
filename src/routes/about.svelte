@@ -20,7 +20,7 @@
   interactives to animations, I explore the possibilities of digital
   communication with interdisciplinary teams. I work at every stage of the
   creative process, including concept development, ideation, wireframing,
-  prototyping, visual design, and front end development.
+  prototyping, visual design, and front-end development.
 </p>
 
 <ExploreMore destination="work" link="."/>

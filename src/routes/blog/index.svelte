@@ -50,8 +50,11 @@
 
   h2 {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem;
   }
 
+  .date {
+    margin-bottom: 1rem;
+  }
 
 </style>

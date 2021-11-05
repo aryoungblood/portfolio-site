@@ -67,7 +67,7 @@
     content="Resume for Alyson Youngblood, designer and developer."/>
   <meta
     name="keywords"
-    content="design, front-end development, resume, designer, developer, data
+    content="design, front end development, resume, designer, developer, data
     visualization"/>
 </svelte:head>
 
@@ -87,7 +87,7 @@
 
         <p class="note">
           Internal titles in this role: Communications Analyst (2019–present),
-          Front-end Developer (2016–2019)
+          Front end Developer (2016–2019)
         </p>
 
         <p>
@@ -95,7 +95,7 @@
           products—articles, websites, data visualizations, interactives, animations, and more—that tell stories about
           policy research. I contribute at every
           stage of the creative process, including concept development,
-          ideation, wireframing, prototyping, visual design, and front-end
+          ideation, wireframing, prototyping, visual design, and front end
           development.
         </p>
       </div>
@@ -111,7 +111,7 @@
 
         <p>
           Responsible for a wide variety of work on and for RAND’s website,
-          including analytics, front-end development, and design. A key
+          including analytics, front end development, and design. A key
           accomplishment in this role was designing an internal dashboard
           for publication metrics.
         </p>

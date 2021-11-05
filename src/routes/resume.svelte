@@ -64,11 +64,11 @@
   <title>Resume • Alyson Youngblood</title>
   <meta
     name="description"
-    content="Resume for Alyson Youngblood, designer and developer." />
+    content="Resume for Alyson Youngblood, designer and developer."/>
   <meta
     name="keywords"
     content="design, front-end development, resume, designer, developer, data
-    visualization" />
+    visualization"/>
 </svelte:head>
 
 <h1 class="access">Resume</h1>
@@ -92,8 +92,8 @@
 
         <p>
           Working closely with colleagues, I design and develop digital
-          products—data visualizations, tools, interactives, articles, animation, and
-          more—that tell stories about policy research. I contribute at every
+          products—articles, websites, data visualizations, interactives, animations, and more—that tell stories about
+          policy research. I contribute at every
           stage of the creative process, including concept development,
           ideation, wireframing, prototyping, visual design, and front-end
           development.
@@ -111,7 +111,7 @@
 
         <p>
           Responsible for a wide variety of work on and for RAND’s website,
-          including analytics, design, and front-end development. A key
+          including analytics, front-end development, and design. A key
           accomplishment in this role was designing an internal dashboard
           for publication metrics.
         </p>
@@ -137,36 +137,38 @@
     <h2>Skills</h2>
 
     <section class="segment">
-      <h3>Design</h3>
-
-      <ul>
-        <li>UX design</li>
-        <li>UI design</li>
-        <li>Graphic design</li>
-        <li>Data visualization</li>
-      </ul>
-    </section>
-
-    <section class="segment">
       <h3>Development</h3>
 
       <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>Svelte</li>
-        <li>D3</li>
         <li>R</li>
+        <li>Git and GitHub</li>
       </ul>
     </section>
+
+    <section class="segment">
+      <h3>Design</h3>
+
+      <ul>
+        <li>UI design</li>
+        <li>Graphic design</li>
+        <li>Data visualization</li>
+      </ul>
+    </section>
+
 
     <h3>Tools</h3>
 
     <section class="segment">
       <ul>
         <li>Adobe XD</li>
+        <li>AEM CMS</li>
+        <li>Jira</li>
         <li>Illustrator</li>
         <li>Photoshop</li>
+        <li>After Effects</li>
       </ul>
     </section>
   </div>

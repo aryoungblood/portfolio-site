@@ -1,5 +1,5 @@
 ---
-title: State Firearm Law Navigator
+title: State firearm law navigator
 date: '2019-10-10'
 link: https://www.rand.org/research/gun-policy/law-navigator.html
 image: images/2020-state-firearm-laws.png

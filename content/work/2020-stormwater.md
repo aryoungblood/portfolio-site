@@ -1,5 +1,5 @@
 ---
-title: Managing Stormwater
+title: Managing stormwater
 date: '2020-01-29'
 link: https://www.rand.org/blog/2020/01/more-than-stormwater-how-green-infrastructure-offers.html#a-systems-framework-for-managi-
 image: images/2020-stormwater.png

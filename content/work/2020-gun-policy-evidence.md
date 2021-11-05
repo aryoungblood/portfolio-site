@@ -1,5 +1,5 @@
 ---
-title: Evidence from Gun Policy Research
+title: Evidence from gun policy research
 date: '2020-04-22'
 link: https://www.rand.org/research/gun-policy/analysis.html
 image: images/2020-gun-policy-evidence.png

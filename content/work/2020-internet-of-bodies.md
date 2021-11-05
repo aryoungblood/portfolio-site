@@ -1,5 +1,5 @@
 ---
-title: Internet of Bodies
+title: Internet of bodies
 date: '2020-010-29'
 link: https://www.rand.org/blog/articles/2020/10/the-internet-of-bodies-will-change-everything-for-better-or-worse.html
 image: images/2020-internet-of-bodies.jpg

@@ -5,7 +5,7 @@ link: https://www.rand.org/blog/articles/2017/11/why-waiting-for-perfect-autonom
 image: images/2017-autonomous-vehicles.png
 image_description: A chart that shows the projected effects of allowing autonomous vehicles on roads in different years.
 contributions: graphics, front end development
-tools: HTML, CSS, JavaScript, D3
+tools: JavaScript, D3, HTML, CSS
 ---
 
-Interactive graphic that shows the projected effects of allowing autonomous vehicles on roads in different years.
+Design and development of an interactive graphic that shows the projected effects of allowing autonomous vehicles on roads in different years.

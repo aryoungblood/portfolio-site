@@ -8,4 +8,4 @@ contributions: graphics, front end development
 tools: JavaScript, D3
 ---
 
-Forest plot data visualizations for articles on the research behind how gun policies affect outcomes. Forest plots appear on dozens of pages; just one is linked here.
+Development of forest plot data visualizations for articles on the research behind how gun policies affect outcomes. Forest plots appear on dozens of pages; just one is linked here.

@@ -8,4 +8,4 @@ contributions: graphics, front end development
 tools: HTML, CSS, JavaScript
 ---
 
-Interactive graphics that summarize the strength of evidence for relationships between gun policies and outcomes.
+Development of interactive graphics that summarize the strength of evidence for relationships between gun policies and outcomes.

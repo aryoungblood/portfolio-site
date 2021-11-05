@@ -1,5 +1,5 @@
 ---
-title: The Costs of Waiting for Perfect Autonomous Vehicles
+title: The costs of waiting for perfect autonomous vehicles
 date: '2017-11-07'
 link: https://www.rand.org/blog/articles/2017/11/why-waiting-for-perfect-autonomous-vehicles-may-cost-lives.html
 image: images/2017-autonomous-vehicles.png

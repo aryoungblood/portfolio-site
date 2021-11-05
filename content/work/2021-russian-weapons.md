@@ -1,5 +1,5 @@
 ---
-title: Russian Weapon Marketing and Sales
+title: Russian weapon marketing and sales
 date: '2021-06-01'
 link: https://www.rand.org/nsrd/projects/russian-arms-sales-and-sanctions-compliance/where-russia-markets-and-sells-military-equipment.html
 image: images/2021-russian-weapons.jpg

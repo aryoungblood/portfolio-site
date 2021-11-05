@@ -1,5 +1,5 @@
 ---
-title: Gun Policy Research
+title: Gun policy research
 date: '2020-04-22'
 link: https://www.rand.org/research/gun-policy/analysis/background-checks/violent-crime.html
 image: images/2020-gun-policy-forest-plot.png

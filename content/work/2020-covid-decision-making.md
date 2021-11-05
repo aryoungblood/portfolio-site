@@ -4,8 +4,8 @@ date: '2020-05-04'
 link: https://www.rand.org/pubs/tools/TLA173-1/tool.html
 image: images/2020-covid-decision-making.png
 image_description: Two charts that compare fatalities under different scenarios.
-contributions: design, graphics, front-end development
-tools: HTML, CSS, JavaScript, Svelte, Adobe XD
+contributions: design, graphics, front end development
+tools: JavaScript, Svelte, HTML, CSS, Adobe XD
 ---
 
-Interactive tool for exploring the impacts of COVID-19 interventions.
+Design and front end development of an interactive tool for exploring the impacts of COVID-19 interventions.

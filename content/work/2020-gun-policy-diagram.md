@@ -8,4 +8,4 @@ contributions: graphics, front-end development
 tools: CSS, JavaScript, Illustrator
 ---
 
-Interactive visualization that shows where evidence is strongest for the effects of gun policies.
+Design and development of an interactive visualization that shows where evidence is strongest for the effects of gun policies.

@@ -111,9 +111,8 @@
 
         <p>
           Responsible for a wide variety of work on and for RAND’s website,
-          including analytics, front end development, and design. A key
-          accomplishment in this role was designing an internal dashboard
-          for publication metrics.
+          including analytics, front end development, and design. Key accomplishments in this role included designing an
+          internal dashboard for publication metrics and writing a script to automate email newsletter production.
         </p>
       </div>
     </section>

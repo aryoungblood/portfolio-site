@@ -82,12 +82,12 @@
 
       <div class="role">
         <h4>
-          Product Designer
+          Product Designer and Developer
         </h4>
 
         <p class="note">
           Internal titles in this role: Communications Analyst (2019–present),
-          Front end Developer (2016–2019)
+          Front End Developer (2016–2019)
         </p>
 
         <p>

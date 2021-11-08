@@ -30,7 +30,7 @@
 
   .entry h2 {
     font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 0 0 1.5rem;
   }
 
   .entry h2 a {

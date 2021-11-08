@@ -82,7 +82,7 @@
 
       <div class="role">
         <h4>
-          Product Designer
+          Product Designer and Developer
         </h4>
 
         <p class="note">
